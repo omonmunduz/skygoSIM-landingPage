@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 const Hero = () => {
     return (
       <div className="relative bg-white overflow-hidden mx-15 ">
@@ -28,7 +27,7 @@ const Hero = () => {
           <img
             className="h-56 w-full object-cover object-top sm:h-72 md:h-96 lg:w-full lg:h-full"
             src="https://images.unsplash.com/photo-1610034463992-aea5e8f62d89?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80"
-            alt=""
+            alt="Speedtest image"
           />
         </div>
       </div>

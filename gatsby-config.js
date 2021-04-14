@@ -4,7 +4,8 @@ module.exports = {
     description: `Worldwide data plans.Global data for SIM and eSIM. Prepare for high-speed internet.`,
     author: `Omur Nazar`,
     siteUrl:'http://www.skygosim.netlify.app',
-    keywords:['Skygo SIM', 'Skygo eSIM', 'Skygo data packages', 'Skygo internet', 'Global Travel Telecom', 'GTT' , 'eSIM', 'Global SIM', 'Global Data plans', 'Internet', 'Cheap internet', 'Telecommunications',
+    keywords:['Skygo SIM', 'top up eSIM', 'best eSIM', 'eSIM packages', 'eSIM', 'eSIM data', 'purchase eSIM', 'activate eSIM' ,'Skygo data packages', 'Skygo internet', 
+    'Global Travel Telecom', 'GTT' , 'eSIM', 'Global SIM', 'Global Data plans', 'Internet', 'Cheap internet', 'Telecommunications',
     'USA connection', 'Global conection', 'Worldwide Internet', 'Japan connection', 'Mobile Data'],
   },
   plugins: [

@@ -88,7 +88,7 @@ Keep your carrier SIM in place, leave your tools at home, and roam freely with y
       width={800}
       quality={95}
       formats={["AUTO", "WEBP", "AVIF"]}
-      alt="A Gatsby astronaut"
+      alt="Skygo SIM website on iMac"
       style={{ marginBottom: `1.45rem` }}
     />
       </div>
