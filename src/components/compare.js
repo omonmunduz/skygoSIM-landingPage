@@ -99,7 +99,7 @@ const Compare = () => {
               </td>
             </tr>
             <tr>
-              <td>CONNECT UP TO 10 DEVICES</td>
+              <td>INSTANT CONNECTION</td>
               <td>
                 <StaticImage
                   src="../images/close.png"
