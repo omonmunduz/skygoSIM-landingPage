@@ -33,6 +33,7 @@ function SEO({ description, lang, meta, title, pathname }) {
 
   return (
     <Helmet
+    
       htmlAttributes={{
         lang,
       }}
@@ -85,7 +86,24 @@ function SEO({ description, lang, meta, title, pathname }) {
           content: metaDescription,
         },
       ].concat(meta)}
-    />
+    >
+        <script type="application/ld+json">
+    {`
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "url": "https://www.skygosim.netlify.app",
+          "name": "Skygo SIM",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+5-601-785-8543",
+            "contactType": "Customer Support",
+            "description": "Worldwide data plans for eSIM.Global data for SIM and eSIM. Prepare for high-speed internet.",
+          }
+        }
+      `}
+  </script>
+      </Helmet>
   )
 }
 
