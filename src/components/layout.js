@@ -26,24 +26,17 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <div
-        style={{
+        <main style={{
           margin: `0 auto`,
           maxWidth: `1300px`,
           padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
-        <main>{children}</main>
+        }}>{children}</main>
         <footer
-          style={{
-            marginTop: `2rem`,
-          }}
+          className="bg-yellow-500  p-5 flex justify-center"
         >
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
+         <p className="text-white text base font-extrabold"> © {new Date().getFullYear()}, SkyGo All Rights Reserved </p>
         </footer>
-      </div>
+      
     </>
   )
 }

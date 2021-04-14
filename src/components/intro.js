@@ -3,7 +3,9 @@ import React from 'react';
 const Intro = () => {
 
     return (
-        <div className ="w-11/12 flex flex-wrap mt-16">
+        <>
+        
+        <div className ="w-11/12 flex justify-center flex-col mt-16 ">
             <div className="w-full">
                 <h2 className="text-4xl text-center text-yellow-500 md:text-5xl lg: text-6xl">Hello Smart eSIM</h2>
                 <p className="text-center text-base text-gray-500">One world. One operator. One affordable price.<br/>
@@ -21,7 +23,7 @@ const Intro = () => {
                     <span className="block text-gray-700 text-base mt-3">or Order a SkyGo physical SIM</span>
                     </h2>
                     <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
-                    <div className="ml-3 inline-flex rounded-md shadow">
+                    <div className="ml-3 inline-flex rounded-md shadow animate-bounce">
                         <a href="http://skygosim.com" className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-indigo-50">
                         Learn more
                         </a>
@@ -38,7 +40,7 @@ const Intro = () => {
                     <span className="block text-gray-700 text-base mt-3">Select a package that best suits your needs</span>
                     </h2>
                     <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
-                    <div className="ml-3 inline-flex rounded-md shadow">
+                    <div className="ml-3 inline-flex rounded-md shadow animate-bounce">
                         <a href="http://skygosim.com" className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-indigo-50">
                         Learn more
                         </a>
@@ -48,6 +50,8 @@ const Intro = () => {
             </div>
 
         </div>
+       
+        </>
     )
 };
 export default Intro;

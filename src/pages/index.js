@@ -6,6 +6,8 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Hero from '../components/hero';
 import Intro from '../components/intro';
+import Features from '../components/features';
+import Compare from '../components/compare';
 
 /*
 <StaticImage
@@ -22,13 +24,8 @@ const IndexPage = () => (
     <SEO title="Home" />
     <Hero />
     <Intro />
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    
-    <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-    </p>
+    <Features />
+    <Compare />
   </Layout>
 )
 
