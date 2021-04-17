@@ -12,8 +12,8 @@ const Hero = () => {
                 <h1 className="text-4xl tracking-tight font-extrabold text-indigo-600 sm:text-5xl md:text-6xl">
                   <span className="block">SkyGo</span>
                   <span className="block xl:inline">
-                   <span className="text-yellow-500">Global Packages</span>{" "}
-                    for <span className="text-yellow-500">SIM and eSIM</span>{" "}
+                   <span className="text-yellow-500">eSIM</span>{" "}
+                    and <span className="text-yellow-500">Global Packages</span>{" "}
                   </span>
                 </h1>
                 <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
